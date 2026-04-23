@@ -13,17 +13,23 @@ namespace VirtualMeowMeow
 
         private void btnFeed_Click(object sender, EventArgs e)
         {
-
+            hunger = Math.Min(100, hunger + 20); 
+            UpdateUI();
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
-
+            happiness = Math.Min(100, happiness + 20);
+            energy = Math.Max(0, energy - 10); 
+            hunger = Math.Max(0, hunger - 5);
+            UpdateUI(); 
         }
 
         private void btnNap_Click(object sender, EventArgs e)
         {
-
+            energy = Math.Min(100, energy + 25);
+            hunger = Math.Max(0, hunger - 5); 
+            UpdateUI() ;
         }
 
         private void UpdateUI ()
