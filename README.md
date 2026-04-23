@@ -15,3 +15,7 @@ Your MeowMeow has needs like
 - Hunger
 - Energy
 - Happiness
+
+  Screenshots
+  <img width="473" height="389" alt="MeowMeowGameScreenshot" src="https://github.com/user-attachments/assets/85938fc7-cfa8-40d6-9e8a-1dcf6787cc9a" />
+
